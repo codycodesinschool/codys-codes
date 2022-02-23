@@ -1,0 +1,13 @@
+h1, p {
+    text-align: center;
+}
+
+#cite {
+    font-size: 3pt;
+}
+
+html, body{
+    margin: 0px;
+    padding: 0px;
+    background-color:rgb(149, 151, 130)
+}
