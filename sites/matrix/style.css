@@ -1,0 +1,26 @@
+
+html,body{
+    background-image: url("media/image/rain.jpg");
+}
+
+.page{
+    background-color: rgba(0, 100, 0, 0.5);
+    padding: 25px;
+    border-radius: 20px;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    font-size: 16pt;
+    font-style: bold;
+    color: rgb(50, 0, 50);
+}
+
+h1{
+    font-size:32pt;
+}
+
+.character {
+    border: 3px darkgreen;
+    border-radius: 99999px;
+}
+
