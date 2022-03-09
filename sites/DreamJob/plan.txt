@@ -1,0 +1,46 @@
+Job: Web developer
+
+Sources: https://money.usnews.com/careers/best-jobs/web-developer/salary https://www.bls.gov/ooh/computer-and-information-technology/web-developers.htm https://www.hongkiat.com/blog/designers-developers-salaries-worldwide/#:~:text=Senior%20Web%20Designers-,Web%20Developers,%2C%20Egypt%2C%20Kenya%2C%20Argentina. 
+
+questions:
+What is the technical description of the job?
+
+What do 'job Title' do?
+
+Describe the environment in which 'job title' work
+
+Describe how to become a 'job title'
+
+what is the pay for a 'job title'. List the lowest, median and highest wage.
+
+Are jobs for 'job title' expected to increase, decrease or stay the same?
+
+What states or countries offer the highest wages? Lowest wages?
+
+What are some similar occupations to 'job title'?
+
+What is it that you believe is the most essential aspect of being a  'job title'
+
+Why do you want to be a 'job title'.
+
+answers:
+
+Someone who makes layout and design of a website
+
+Program Websites
+
+In offices collactorating with others of the same title
+
+Get a degree in programming/computer science and have experience with web languages
+
+lowest: 55,390 median: 77,200 highest: 107,620
+
+The Job demand is increasing although recently the amount of occuptaions has stayed simular
+
+lowest in egypt, argentina, indoneisia highest in switzerland, australia, US
+
+computer programmers, graphic designers
+
+making websites look good
+
+Because i like making websites in my free time so it's just simple

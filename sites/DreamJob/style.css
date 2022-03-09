@@ -1,0 +1,63 @@
+:root {
+    --c1: #1a1d1aff;
+    --c2: #e8e5daff;
+    --c3: #cdc392ff;
+    --c4: #80a4edff;
+    --c5: #6969b3ff;
+}
+
+#logo {
+    width: 100px;
+    height: 100px;
+}
+
+.inline {
+    position: relative;
+    display: inline;
+    line-height: 14px;
+    /* play with this */
+}
+
+body {
+    background-color: var(--c3);
+    font-family: Maxellight;
+}
+
+nav {
+    padding: 5px;
+    margin: 0px;
+    background-color: var(--c2);
+    float: left;
+    text-align: center;
+    min-height: 70vh;
+}
+
+article p {
+    color: var(--c5);
+}
+
+article {
+    padding: 5px;
+    background-color: var(--c2);
+    float: right;
+    min-width: 20vw;
+    max-width: 90vw;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    height: 85%;
+}
+
+nav ul li {
+    padding: 10px;
+    margin: 0px;
+    float: left;
+}
+
+@font-face {
+    font-family: Maxellight;
+    src: url("media/font/Maxellight.ttf");
+}
