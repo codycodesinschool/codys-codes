@@ -1,5 +1,5 @@
 :root {
-    --c1: #1a1d1aff;
+    --c1: rgb(67, 80, 67);
     --c2: #e8e5daff;
     --c3: #cdc392ff;
     --c4: #80a4edff;
@@ -34,6 +34,19 @@ nav {
 
 article p {
     color: var(--c5);
+}
+
+footer {
+    background: var(--c1);
+    color: var(--c5);
+    font-family: Arial;
+    height: 15vh;
+    border-radius: 10px;
+}
+
+footer p {
+    padding: 5px;
+    font: Arial;
 }
 
 article {
