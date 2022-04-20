@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Light Bulb</title>
+    <style>
+        .center {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+
+<body>
+    <script>
+        const body = document.body;
+        body.style.background = "rgb(25,25,25)"
+
+        function on() {
+            const img = document.querySelector("img");
+            img.src = "lighton.png";
+            body.style.background = "rgb(150,150,100)";
+            console.log(img);
+        }
+
+        function off() {
+            const img = document.querySelector("img");
+            img.src = "lightoff.png";
+            body.style.background = "rgb(25,25,25)";
+            console.log(img);
+        }
+    </script>
+    <div class="center">
+        <img src="lightoff.png">
+        <br/>
+        <button onclick="on()">Light On</button> <button onclick="off()">Light Off</button>
+    </div>
+</body>
+
+</html>
