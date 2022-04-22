@@ -1,0 +1,101 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
+    background-image: url("books2.jpg");
+    background-size: 100%;
+}
+
+div {
+    padding: 0px;
+    margin: 0px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 1fr 1fr 3fr 1fr;
+    width: 100vw;
+    height: 100vh;
+    gap: 10px;
+}
+
+.container div {
+    padding: 0px;
+    margin: 0px;
+    border-radius: 25px;
+    ;
+}
+
+.header {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    text-align: center;
+    border-radius: 25px;
+    ;
+}
+
+.text {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    border-radius: 25px;
+}
+
+.text textarea {
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    background-color: #AFAA97
+}
+
+.save {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    border-radius: 25px;
+    ;
+    font-size: 32pt;
+}
+
+.save button {
+    width: 100%;
+    height: 100%;
+    font-size: 12pt;
+    border-radius: 25px;
+    ;
+    background-color: #AFAA97
+}
+
+.story {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    border-radius: 25px;
+    ;
+}
+
+.load {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    border-radius: 25px;
+    ;
+    font-size: 32pt;
+}
+
+.load button {
+    width: 100%;
+    border-radius: 25px;
+    ;
+    height: 100%;
+    font-size: 12pt;
+    background-color: #AFAA97
+}
