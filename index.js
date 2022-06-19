@@ -1,4 +1,4 @@
-let sites = ["Emoji", "shake", "story","introduction","imageMap","button","matrix","DreamJob","WeekendWednesdayEssay","light","diaryWriter"];
+let sites = ["Emoji", "shake", "story","introduction","imageMap","button","matrix","DreamJob","WeekendWednesdayEssay","light","diaryWriter","checkbox-agony"];
 let linkdiv = document.querySelector('.links');
 for(let site of sites) {
   el = document.createElement('a')
