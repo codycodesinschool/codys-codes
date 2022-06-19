@@ -1,0 +1,18 @@
+.afgdasbfdgg {
+    opacity: 0;
+    transition: 1s;
+}
+
+body {
+    padding: 50px;
+    background-color: #CCC;
+}
+
+input[type="checkbox"] {
+    padding: 0px;
+    margin: 0px;
+}
+
+.site {
+    background-color: #333;
+}
