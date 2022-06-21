@@ -45,7 +45,7 @@ for (let i = 0; i < 100000; i++) {
     let ajvdluirrgyauoiv = document.createElement("input");
     ajvdluirrgyauoiv.type = "checkbox";
     ajvdluirrgyauoiv.onclick = () => {
-        if(Math.random() < (5/notChecked())*2) {
+        if(Math.random() > (5/notChecked())*2) {
             messWithEm();
         }
     }
